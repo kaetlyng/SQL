@@ -1,0 +1,17 @@
+CREATE TABLE clothing (name TEXT, color TEXT, size TEXT, price INTEGER);
+INSERT INTO clothing VALUES("T Shirt", "blue", "small", 14);
+INSERT INTO clothing VALUES("skirt", "black", "large", 18);
+INSERT INTO clothing VALUES("blouse", "white", "XS", 9);
+INSERT INTO clothing VALUES("jeans", "blue", "XL", 19);
+INSERT INTO clothing VALUES("pants", "white", "small", 12);
+INSERT INTO clothing VALUES("cardigan", "gray", "small", 4);
+INSERT INTO clothing VALUES("sweater", "black", "large", 55);
+INSERT INTO clothing VALUES("hoodie", "red", "small", 43);
+INSERT INTO clothing VALUES("shorts", "purple", "medium", 11);
+INSERT INTO clothing VALUES("camisole", "green", "medium", 77);
+INSERT INTO clothing VALUES("capris", "turquoise", "large", 90);
+INSERT INTO clothing VALUES("pullover", "red", "XS", 60);
+INSERT INTO clothing VALUES("yoga pants", "black", "medium", 12);
+INSERT INTO clothing VALUES("tanktop", "green", "XL", 30);
+INSERT INTO clothing VALUES("dress", "purple", "medium", 13);
+SELECT * FROM clothing ORDER BY price ASC
