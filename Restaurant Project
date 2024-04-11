@@ -1,8 +1,7 @@
-In this project, I am assisting a restaurant owner with inventory costs.
-The restaurant owner wants to know  
- 1.  When it's time to order new stock
- 2.  Which staff members are working and when
- 3.  How much each pizza costs
+In this SQL code, I am helping a restaurant owner to optimize operations using SQL:
+1. Identified optimal reorder points for inventory to minimize shortages and excess costs.
+2. Analyzed staff schedules to optimize workforce allocation for efficient operations.
+3. Calculated individual costs for pizza variants, enabling pricing adjustments for improved profitability.
 
 SELECT 
 	o.order_id,
